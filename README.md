@@ -15,12 +15,12 @@ The code above requires `pip` and `git`.
 
 
 ### Python
-To access the function `easy_subplots` from the `grant` module, for example, import the module and access the function like any other package:
+To access the function `easy_subplots` from the `grant.utils` module, for example, import the module and access the function like any other package:
 
 ```python
-from ruggles import grant
+from ruggles import grant.utils as gu
 
-fig, axes = grant.easy_subplots(ncols=2, nrows=5)
+fig, axes = gu.easy_subplots(ncols=2, nrows=5)
 ```
 
 ### R
